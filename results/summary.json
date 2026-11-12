@@ -1,6 +1,6 @@
 {
   "analysis_metadata": {
-    "date": "2026-11-04 22:12:30",
+    "date": "2026-11-12 13:27:17",
     "input_file": "hcm_variants_grch38.tsv",
     "target_disease": "Cardiomyopathie hypertrophique (HCM/CMH)",
     "genome_assembly": "GRCh38",
