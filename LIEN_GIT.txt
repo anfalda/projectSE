@@ -1,1 +1,8 @@
-URL_DU_DEPOT=https://github.com/anfalda/projectGp.git
+Projet : Analyse des variants ClinVar associés à la cardiomyopathie hypertrophique
+Groupe : 1
+
+Repository GitHub :
+https://github.com/anfalda/projectGp
+
+Commit final :
+ed9c48f4a09a747d41540a44ff09fd9494aee60b
