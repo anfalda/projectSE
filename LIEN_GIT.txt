@@ -2,7 +2,7 @@ Projet : Analyse des variants ClinVar associés à la cardiomyopathie hypertroph
 Groupe : 1
 
 Repository GitHub :
-https://github.com/anfalda/projectGp
+https://github.com/anfalda/projectSE
 
 Commit final :
 ed9c48f4a09a747d41540a44ff09fd9494aee60b

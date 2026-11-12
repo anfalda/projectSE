@@ -1,6 +1,6 @@
 # Planification pour le pipeline ClinVar HCM.
 # Installer dans le crontab de l'utilisateur avec : crontab -e
-# Le depot doit etre clone dans : $HOME/projectGp
+# Le depot doit etre clone dans : $HOME/projectSE
 #
 # IMPORTANT :
 # Le pipeline utilise la release archivee 2026-10 definie dans
@@ -11,8 +11,8 @@
 # minute heure jour mois jour_semaine commande
 #
 # Reexecution le premier jour de chaque mois a 02h00.
-0 2 1 * * cd $HOME/projectGp && PYTHON_BIN=$HOME/projectGp/.venv/bin/python ./run.sh -t 15 >> $HOME/projectGp/logs/cron_$(date +\%Y\%m\%d).log 2>&1
+0 2 1 * * cd $HOME/projectSE && PYTHON_BIN=$HOME/projectSE/.venv/bin/python ./run.sh -t 15 >> $HOME/projectSE/logs/cron_$(date +\%Y\%m\%d).log 2>&1
 
 # Suppression des journaux et archives de plus de 90 jours, le dimanche a 03h00.
-0 3 * * 0 find $HOME/projectGp/logs -type f -name "run_*.log" -mtime +90 -delete
-0 3 * * 0 find $HOME/projectGp/results -type f -name "resultats_*.tar.gz" -mtime +90 -delete
+0 3 * * 0 find $HOME/projectSE/logs -type f -name "run_*.log" -mtime +90 -delete
+0 3 * * 0 find $HOME/projectSE/results -type f -name "resultats_*.tar.gz" -mtime +90 -delete

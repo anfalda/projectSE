@@ -39,7 +39,7 @@ Ce projet implémente un pipeline bioinformatique automatisé et reproductible c
 ## 2. Architecture du Projet
 
 ```text
-projectGp/
+projectSE/
 ├── assets/
 │   └── usthb_logo.png
 ├── config/
@@ -121,11 +121,11 @@ Le projet applique une séparation claire des responsabilités entre **Bash** (f
 - Python 3.10 ou version supérieure.
 - Installation dans un environnement virtuel Python :
 
-Pour utiliser la tâche Cron, cloner le dépôt dans `$HOME/projectGp`.
+Pour utiliser la tâche Cron, cloner le dépôt dans `$HOME/projectSE`.
 
 ```bash
-git clone https://github.com/anfalda/projectGp.git "$HOME/projectGp"
-cd "$HOME/projectGp"
+git clone https://github.com/anfalda/projectSE.git "$HOME/projectSE"
+cd "$HOME/projectSE"
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
